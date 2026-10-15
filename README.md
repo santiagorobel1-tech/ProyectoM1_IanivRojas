@@ -1,34 +1,27 @@
 # Colorfly Studio - Generador de Paletas Interactivo
 
-Aplicación web estática e interactiva desarrollada como Proyecto Integrador para el Módulo 1 de la formación Full Stack.
+Aplicación web estática desarrollada como Proyecto Integrador para el Módulo 1.
 
 ## 🚀 Demo
-[Ver aplicación en vivo](Reemplaza-esto-con-tu-link-de-GitHub-Pages)
+[Ver aplicación en vivo](AQUI-PONES-TU-LINK-DE-GITHUB-PAGES)
 
----
+## 📋 Descripción
+Herramienta que permite generar paletas aleatorias de colores ajustables en tamaño (6, 8 o 9) y formato (HEX / HSL). 
 
-## 📋 Descripción del Proyecto
-Esta herramienta permite al equipo creativo de Colorfly Studio generar paletas aleatorias de colores ajustables en tamaño (6, 8 o 9 colores) y formato (HEX / HSL). Ofrece feedback visual inmediato copiando los códigos al portapapeles al hacer clic sobre cada tarjeta de color.
+## 🛠️ Tecnologías
+- HTML5 Semántico
+- CSS3 (Flexbox y Grid)
+- JavaScript nativo (Manipulación del DOM)
 
----
+## 🤖 Documentación del Uso de Inteligencia Artificial
+Siguiendo las reglas del proyecto, utilicé IA como asistente para no trabarme con la sintaxis y optimizar tiempos.
 
-## 🛠️ Tecnologías Utilizadas
-- **HTML5:** Marcado semántico y accesibilidad básica.
-- **CSS3:** Layouts dinámicos con Flexbox y CSS Grid.
-- **JavaScript (ES6+):** Manipulación dinámica del DOM, gestión de eventos y clipboard API.
-- **Git & GitHub:** Versionado de código y despliegue a producción mediante GitHub Pages.
+**Prompt utilizado de ejemplo:**
+> "CONTEXTO: Estoy creando un generador de paletas en JS puro para mi Proyecto Integrador. Nivel: Principiante.
+> OBJETIVO: Necesito dos funciones simples, una que genere un color en HEX y otra en HSL. 
+> RESTRICCIONES: No usar librerías externas."
 
----
+**Validación:** El código fue revisado manualmente para quitar comentarios excesivos y asegurar que solo usa herramientas vistas en el Módulo 1.
 
-## 🧠 Documentación de Prompts e Integración de IA
-Para optimizar el flujo de trabajo y cumplir con los tiempos de entrega, utilicé IA como asistente de código estructurado.
-
-### Prompt de Ejemplo Utilizado:
-> **CONTEXTO:** Estoy construyendo una app web en JS puro para generar colores aleatorios.
-> **OBJETIVO:** Necesito una función limpia para crear códigos HEX y HSL.
-> **RESTRICCIONES:** Sin librerías externas. Únicamente JS nativo.
-
----
-
-## 📁 Capturas de Pantalla
-Las capturas demostrativas del funcionamiento se encuentran en la carpeta `/docs`.
+## 📁 Capturas
+Las demostraciones visuales están en la carpeta `/docs`.
