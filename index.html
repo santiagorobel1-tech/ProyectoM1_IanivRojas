@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Paletas | Colorfly Studio</title>
+    <!-- Vincularemos nuestro archivo CSS aquí -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Colorfly Studio</h1>
+        <p>Generador de Paletas Interactivo</p>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección de controles -->
+        <section class="controls">
+            <!-- Selector de tamaño de paleta (6, 8 o 9 colores) -->
+            <div class="control-group">
+                <label for="palette-size">Tamaño de paleta:</label>
+                <select id="palette-size">
+                    <option value="6">6 colores</option>
+                    <option value="8">8 colores</option>
+                    <option value="9">9 colores</option>
+                </select>
+            </div>
+
+            <!-- Selector de formato de color (HEX o HSL) -->
+            <div class="control-group">
+                <label for="color-format">Formato:</label>
+                <select id="color-format">
+                    <option value="HEX">HEX</option>
+                    <option value="HSL">HSL</option>
+                </select>
+            </div>
+
+            <!-- Botón principal requerido -->
+            <button id="generate-btn">Generar paleta</button>
+        </section>
+
+        <!-- Contenedor donde se generarán los colores dinámicamente -->
+        <section id="palette-container" class="palette-container">
+            <!-- Las tarjetas de colores se inyectarán aquí desde JavaScript -->
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Proyecto Integrador M1 - Desarrollado por Ianiv Rojas</p>
+    </footer>
+
+    <!-- Contenedor para el microfeedback (Toast/Tooltip) -->
+    <div id="toast" class="toast hidden">¡Paleta generada!</div>
+
+    <!-- Vincularemos nuestro archivo JavaScript al final del body -->
+    <script src="js/app.js"></script>
+</body>
+</html>
