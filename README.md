@@ -3,7 +3,7 @@
 Aplicación web estática desarrollada como Proyecto Integrador para el Módulo 1.
 
 ## 🚀 Demo
-[Ver aplicación en vivo](AQUI-PONES-TU-LINK-DE-GITHUB-PAGES)
+[Ver aplicación en vivo](https://santiagorobel1-tech.github.io/ProyectoM1_IanivRojas/)
 
 ## 📋 Descripción
 Herramienta que permite generar paletas aleatorias de colores ajustables en tamaño (6, 8 o 9) y formato (HEX / HSL). 
